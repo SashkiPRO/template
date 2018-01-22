@@ -1,0 +1,39 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "Alex Botsula",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery.validation": "^1.16.4",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-webpack-alias": "^2.1.2",
+    "bootstrap": "^3.3.7",
+    "bootstrap-loader": "^2.2.0",
+    "bootstrap-sass": "^3.3.7",
+    "bootstrap3": "^3.3.5",
+    "css-loader": "^0.28.8",
+    "eslint": "^4.15.0",
+    "eslint-loader": "^1.9.0",
+    "html-webpack-plugin": "^2.30.1",
+    "imports-loader": "^0.7.1",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^1.16.5",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "jquery-validation": "^1.17.0"
+  }
+}
